@@ -1,0 +1,46 @@
+# SQLite version 3.x
+#   gem install sqlite3
+#
+#   Ensure the SQLite 3 gem is defined in your Gemfile
+#   gem 'sqlite3'
+#
+development:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  database: d9svikgo7ni4mn
+  pool: 5
+  username: ecpbmlzlblsrhx
+  password: 6b2a073a834e1d12e2e138335989d825095b2dfb195d08287a6f2e9b09352a02
+  host: ec2-52-3-200-138.compute-1.amazonaws.com
+  
+test:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  database: d9svikgo7ni4mn
+  pool: 5
+  username: ecpbmlzlblsrhx
+  password: 6b2a073a834e1d12e2e138335989d825095b2dfb195d08287a6f2e9b09352a02
+  host: ec2-52-3-200-138.compute-1.amazonaws.com
+
+beta:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  database: d9svikgo7ni4mn
+  pool: 5
+  username: ecpbmlzlblsrhx
+  password: 6b2a073a834e1d12e2e138335989d825095b2dfb195d08287a6f2e9b09352a02
+  host: ec2-52-3-200-138.compute-1.amazonaws.com
+
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  database: d9svikgo7ni4mn
+  pool: 5
+  username: ecpbmlzlblsrhx
+  password: 6b2a073a834e1d12e2e138335989d825095b2dfb195d08287a6f2e9b09352a02
+  host: ec2-52-3-200-138.compute-1.amazonaws.com

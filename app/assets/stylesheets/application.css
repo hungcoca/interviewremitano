@@ -1,0 +1,118 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+require bootstrap.min
+
+
+.txt-header-top{
+	margin-top: 14px;
+}
+.border-shaw-2{
+	    box-shadow: 0px 2px #888888;
+}
+#form_login_header{
+	padding-top:24px;
+	margin-bottom: 19px;
+}
+#form_login_header_sing{
+	padding-top:24px;
+	margin-bottom: 49px;
+}
+main{
+	margin-top:20px;
+	background-color: white;
+}
+.txt-item-content h2{
+	margin-top:0px;
+}
+.poss{
+	position: relative;
+}
+.poss i{
+	position: absolute;
+    font-size: 37px;
+    top: -8px;
+    left: 177px;
+}
+.poss i:nth-child(2){
+	left: 220px;
+}
+.poss span{
+	position: absolute;
+    left: 265px;
+}
+.count-like i{
+	font-size: 16px;
+	padding-right: 15px;
+}
+.count-like span{
+	font-weight: bold;
+    color: red;
+}
+.txt-h2-h{
+	font-size: 17px;
+    color: green;
+    font-weight: bold;
+}
+.over-hidden-p{
+	overflow: hidden;
+    height: 60px;
+
+}
+.item-content:first-child{
+	margin-top:0px;
+}
+.item-content{
+	margin-top:11px;
+	box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+    padding-left: 0px;
+    padding-bottom: 6px;
+    padding-top: 15px;
+}
+.txt-name-h{
+	padding-top: 7px;
+}
+.registerbtn{
+	margin-top:4px;
+}
+.txt-hover-logo,.txt-hover-logo:hover{
+	color: black;
+	text-decoration :none
+}
+a:hover{
+	text-decoration :none
+}
+#footer{
+	    height: 50px;
+    background: #cccc;
+    line-height: 50px;
+    font-weight: bold;
+}
+body{
+	background-color: #ddd;
+}
+.bk-white-top{
+	    background: white;
+    min-height: 461px;
+   
+    margin-top: 20px;
+}
+.boxshaw{
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.line-ds{
+	border-bottom: 1px solid #ddd;
+    padding-bottom: 8px
+}
