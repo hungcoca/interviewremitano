@@ -76,7 +76,7 @@ main{
 }
 .item-content{
 	margin-top:11px;
-	/*box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;*/
+	box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
     padding-left: 0px;
     padding-bottom: 6px;
     padding-top: 15px;
